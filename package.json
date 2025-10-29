@@ -25,7 +25,7 @@
     "@orderly.network/trading": "2.8.1",
     "@orderly.network/trading-leaderboard": "2.8.1",
     "@orderly.network/types": "2.8.1",
-    "@orderly.network/ui": "2.8.1",
+    "@orderly.network/ui": "^2.8.1",
     "@orderly.network/ui-scaffold": "2.8.1",
     "@orderly.network/vaults": "2.8.1",
     "@orderly.network/wallet-connector": "2.8.1",
