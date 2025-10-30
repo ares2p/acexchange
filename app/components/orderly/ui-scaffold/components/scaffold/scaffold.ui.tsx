@@ -95,25 +95,6 @@ export const DesktopScaffold: React.FC<DesktopScaffoldProps> = (props) => {
           classNames?.container,
         )}
       >
-        <Box px={2} ref={announcementRef}>
-          <React.Suspense fallback={null}>
-            <LazyRestrictedInfoWidget
-              className={cn(
-                "oui-scaffold-restricted-info",
-                "oui-relative oui-z-[1]",
-                "oui-mt-2",
-                "oui-bg-base-9",
-                "oui-min-w-[994px]",
-              )}
-            />
-          </React.Suspense>
-          <React.Suspense fallback={null}>
-            <LazyAnnouncementWidget
-              className={"oui-mx-auto oui-mt-2"}
-              hideTips={restrictedInfo?.restrictedOpen}
-            />
-          </React.Suspense>
-        </Box>
         {/*--------- body start ------ */}
         {!hasLeftSidebar ? (
           // ----------No leftSidebar layout start ---------
