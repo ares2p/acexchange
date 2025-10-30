@@ -23,7 +23,11 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./app/*"],
+      "@orderly.network/ui-scaffold": ["./app/components/orderly/ui-scaffold"],
+      "@orderly.network/ui-scaffold/*": ["./app/components/orderly/ui-scaffold/*"],
+      "@orderly.network/ui": ["./app/components/orderly/ui"],
+      "@orderly.network/ui/*": ["./app/components/orderly/ui/*"],
     },
 
     // Vite takes care of building everything, not tsc.

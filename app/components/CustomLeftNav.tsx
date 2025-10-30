@@ -116,7 +116,6 @@ const NavItem: FC<NavItemProps> = ({ item, onLinkClick }) => {
       <div className="oui-text-base oui-font-semibold oui-text-base-contrast-80">
         {name}
       </div>
-      {trailing}
     </Link>
   );
 };
