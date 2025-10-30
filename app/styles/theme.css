@@ -1,10 +1,10 @@
 :root {
-  --oui-font-family: "Montserrat", sans-serif;
+  --oui-font-family: "IBM Plex Sans", sans-serif;
   --oui-font-size-base: 16px;
 
   /* colors */
   --oui-color-primary: 0 0 0;
-  --oui-color-primary-light: 33 33 33;
+  --oui-color-primary-light: 255 255 255;
   --oui-color-primary-darken: 165 0 0;
   --oui-color-primary-contrast: 255 255 255;
 
@@ -20,15 +20,15 @@
   --oui-color-danger-darken: 225 9 17;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 41 233 169;
+  --oui-color-success: 33 221 155;
+  --oui-color-success-darken: 0 180 100;
   --oui-color-success-light: 55 245 183;
-  --oui-color-success-darken: 33 221 155;
   --oui-color-success-contrast: 0 0 0;
 
   --oui-color-warning: 165 29 45;
   --oui-color-warning-light: 192 28 40;
   --oui-color-warning-darken: 165 29 45;
-  --oui-color-warning-contrast: 0 0 0;
+  --oui-color-warning-contrast: 255 255 255;
 
   --oui-color-fill: 15 15 15;
   --oui-color-fill-active: 20 20 20;
@@ -49,7 +49,7 @@
 
   --oui-color-trading-loss: 224 11 19;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
+  --oui-color-trading-profit: 0 103 79;
   --oui-color-trading-profit-contrast: 0 0 0;
 
   /* gradients */
@@ -65,8 +65,8 @@
   --oui-gradient-danger-start: 238 16 31;
   --oui-gradient-danger-end: 225 9 17;
 
-  --oui-gradient-brand-start: 224 11 19;
-  --oui-gradient-brand-end: 224 11 19;
+  --oui-gradient-brand-start: 255 255 255;
+  --oui-gradient-brand-end: 255 255 255;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
@@ -96,7 +96,6 @@
 
 html,
 body {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "IBM Plex Sans", sans-serif !important;
   font-size: 16px !important;
 }
-

@@ -39,9 +39,6 @@ export type PosterLayoutConfig = {
 
 export type ShareOptions = {
   pnl: {
-    /**
-     * defualt is Manrope
-     */
     fontFamily?: string;
     /**
      * can not empty

@@ -15,7 +15,7 @@ export const Trading: FC<TradingState> = (props) => {
     <DesktopLayout
       className="oui-h-[calc(100vh_-_48px_-_29px)] oui-bg-base-10"
       {...props}
-      marketLayout="top"
+      marketLayout="hide"
     />
   );
 };
