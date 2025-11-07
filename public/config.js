@@ -14,7 +14,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_DISABLE_SOLANA_WALLETS": "false",
   "VITE_WALLETCONNECT_PROJECT_ID": "a37cef85d15fddcd01a12d3528b59b6d",
   "VITE_APP_NAME": "ACExchange",
-  "VITE_APP_DESCRIPTION": "Orderly Trading Application",
+  "VITE_APP_DESCRIPTION": "",
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Markets,Swap,Portfolio,Rewards",
