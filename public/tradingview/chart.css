@@ -14,6 +14,7 @@ span {
   --up: #ffffff;
   --down: #E11215ff;
   --white-1: rgba(255, 255, 255, 0.98);
+  --text: #000000;
 }
 /* Disabled instant orders placement control */
 div[data-section-name="tradingConfirmEnabled"] {
@@ -60,12 +61,12 @@ div[data-section-name="extendLeftTradingLine"] {
 .buyButton-3X2QgaDd {
   background-color: var(--up) !important;
   border-color: var(--up) !important;
-  color: var(--white-1) !important;
+  color: var(--text) !important;
 }
 .sellButton-3X2QgaDd {
   background-color: var(--down) !important;
   border-color: var(--down) !important;
-  color: var(--white-1) !important;
+  color: var(--text) !important;
 }
 .loaderItem-18GTjpi- {
   background-color: var(--white-1) !important;
